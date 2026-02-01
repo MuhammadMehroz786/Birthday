@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 22nd Birthday Dua! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Music Player (Hidden but functional) -->
+    <div class="music-control">
+        <button id="musicToggle" class="music-btn">🎵 Play Music</button>
+        <audio id="bgMusic" loop>
+            <source src="assets/music/birthday-song.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Floating Hearts Animation -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Main Landing Section -->
+    <section class="landing-section" id="landingSection">
+        <div class="landing-content">
+            <h1 class="main-title">Happy 22nd Birthday Dua!</h1>
+            <p class="subtitle">To my amazing best friend</p>
+            <button class="enter-btn" id="enterBtn">Open Your Gift 🎁</button>
+        </div>
+    </section>
+
+    <!-- Main Content (Hidden initially) -->
+    <div class="main-content" id="mainContent">
+
+        <!-- Personal Message Section -->
+        <section class="message-section">
+            <div class="container">
+                <h2 class="section-title">A Special Message For Dua</h2>
+                <div class="message-box">
+                    <p class="message-text">
+                        Chalo jee, finally 1st February aur tumhara 22nd birthday aa hi gaya! 🎂✨
+                    </p>
+                    <p class="message-text">
+                        Pichle saal isi din main maafi mang raha tha, darr raha tha k tum door na ho jao, lekin aaj jab tum 22 ki ho rahi ho toh ek baat toh confirm hai—ke tum meri woh aadat ho jo chot-ti nahi, balki aur pakki hoti ja rahi hai.
+                    </p>
+                    <p class="message-text">
+                        Tumne apne wish m pucha tha na k 1st sem m wish kia tha ya nahi? Baba tab toh tum mere liye sirf woh 'Radio' thi jiski bakbak se main seat badal leta tha, kise pata tha k ek din isi bakbak k liye main taras jaonga. Kise pata tha k jis larki ka naam Khadija tha, woh meri Princess ban jayegi aur meri har Dua m shamil hogi.
+                    </p>
+                    <p class="message-text">
+                        Log kehte hain 22 Taylor Swift wala saal hota hai, 'happy and confused,' lekin mera toh simple hai—jab tak tum sath ho, sab sahi hai. Tumne 5th sem m jo sath nibhaya, jo mujhe sambhala aur hamesha kaha na k 'Main hoon na'—baba woh mere liye sab kuch hai. Tum sirf meri dost nahi ho, tum mera sukoon ho, meri personal dairy ho jahan main bina soche sab keh deta hoon.
+                    </p>
+                    <p class="message-text" style="font-weight: bold; color: var(--primary-pink);">
+                        Happy Birthday Meri Aadat<br>
+                        Happy Birthday Meri Princess<br>
+                        Happy Birthday Meri Dua<br>
+                        Happy Birthday Zaalima (Yeh title toh hamesha rahega)<br>
+                        Happy Birthday Mottu Billi
+                    </p>
+                    <p class="message-text">
+                        Thank you so much is 'Sarru Bandar' ko jhelne k liye. Thank you mujhe 'Mehroz' se 'Baba' banane k liye. Main janta hoon main abhi bhi larta hoon, tang karta hoon, bndr ban jata hoon... lekin tum janti ho na k tumhare bagair mera guzara nahi hai.
+                    </p>
+                    <p class="message-text">
+                        22 saal ki hogayi ho, ab thori aqal udhaar le lo kisi se (ya chalo rehne do, tum aisi hi theek ho). Bas hamesha hasti rehna aur meri 'Aadat' bane rehna.
+                    </p>
+                    <p class="message-text">
+                        Happy Birthday Meri Sab se Achi Dost!
+                    </p>
+                    <p class="message-signature">
+                        Tera apna,<br>
+                        Sarru Bandar ❤️
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Our Memories Together</h2>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <img src="assets/photos/photo1.jpg" alt="Memory with Dua 1">
+                        <p class="photo-caption">Meri Princess 👑✨</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="assets/photos/photo2.jpg" alt="Memory with Dua 2">
+                        <p class="photo-caption">Meri Aadat 💕</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="assets/photos/photo3.jpg" alt="Memory with Dua 3">
+                        <p class="photo-caption">Zaalima aur Sarru Bandar 🌟</p>
+                    </div>
+                    <div class="photo-item">
+                        <img src="assets/photos/photo4.jpg" alt="Memory with Dua 4">
+                        <p class="photo-caption">Mottu Billi ke sath moments 🎉</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Wishes Section -->
+        <section class="wishes-section">
+            <div class="container">
+                <h2 class="section-title">Make a Wish! 🎂</h2>
+                <div class="candle-container">
+                    <div class="candle" id="candle">
+                        <div class="flame"></div>
+                        <div class="wick"></div>
+                        <div class="wax"></div>
+                    </div>
+                    <p class="candle-instruction">Click the candle to blow it out!</p>
+                    <p class="wish-message hidden" id="wishMessage">🎉 Your wish has been made, Dua! May this year bring you everything you've dreamed of and more! 🎉</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Birthday Message -->
+        <section class="final-section">
+            <div class="container">
+                <h2 class="final-message">Wishing you the happiest 22nd birthday ever, Dua! 🎈</h2>
+                <p class="final-text">Thank you for being such an amazing friend. Here's to many more years of friendship and unforgettable moments! 💕</p>
+                <p class="final-text" style="margin-top: 20px; font-size: 20px;">- Mehroz</p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
