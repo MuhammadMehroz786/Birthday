@@ -291,6 +291,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ===== Console Easter Egg =====
-    console.log('%c🎉 Happy 22nd Birthday Dua! 🎉', 'font-size: 30px; color: #ff6b9d; font-weight: bold;');
+    console.log('%c🎉 Happy Birthday to the Most Beautiful Princess Dua! 🎉', 'font-size: 30px; color: #ff6b9d; font-weight: bold;');
     console.log('%cMade with ❤️ by Mehroz for an amazing best friend!', 'font-size: 16px; color: #ff4757;');
 });
